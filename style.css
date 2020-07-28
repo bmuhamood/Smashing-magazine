@@ -142,3 +142,62 @@ li {
     outline: none;
     margin-left: 1.2rem;
   }
+  .articles {
+    width: 95%;
+    height: 70rem;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    column-gap: 0.6rem;
+    row-gap: 0.6rem;
+    transition: all 0.2s ease-out;
+  }
+  .article-1 {
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+    background-color: var(--level-5);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .article-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20%;
+    width: 100%;
+  }
+  .author-pic {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--fifth-color);
+    border-radius: 1rem;
+    transform: rotate(-10deg);
+  }
+  .author-name {
+    width: 25rem;
+    height: 5rem;
+    background-color: var(--fourth-color);
+  }
+  .article-header {
+    background-color: var(--third-color);
+    width: 100%;
+    height: 10rem;
+    margin-top: 2rem;
+  }
+  .article-comment {
+    width: 40%;
+    height: 3rem;
+    background-color: var(--fourth-color);
+    margin-top: 2rem;
+  }
+  .hashtags {
+    width: 60%;
+    height: 2rem;
+    background-color: var(--fifth-color);
+    margin-top: 2rem;
+  }
