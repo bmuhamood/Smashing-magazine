@@ -201,3 +201,39 @@ li {
     background-color: var(--fifth-color);
     margin-top: 2rem;
   }
+
+  .latest-post {
+    width: 95%;
+    margin-top: 12rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    column-gap: 0.6rem;
+    height: 30rem;
+  }
+
+  .latest-post-1 {
+    background-color: var(--seventh-color);
+  }
+  
+  .latest-post-title {
+    width: 85%;
+    height: 2rem;
+    margin: 2rem;
+    background-color: var(--fourth-color);
+  }
+  
+  .latest-post-author {
+    width: 60%;
+    background-color: var(--fifth-color);
+    height: 1rem;
+    margin: 2rem;
+  }
+  
+  .latest-post-body {
+    width: 85%;
+    background-color: var(--sixth-color);
+    height: 20rem;
+    margin: 2rem;
+  }
