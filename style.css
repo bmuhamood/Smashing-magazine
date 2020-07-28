@@ -177,14 +177,6 @@ nav span {
   width: 100%;
 }
 
-.author-pic {
-  width: 5rem;
-  height: 5rem;
-  background-color: var(--fifth-color);
-  border-radius: 1rem;
-  transform: rotate(-10deg);
-}
-
 .author-name {
   width: 25rem;
   height: 5rem;
@@ -316,7 +308,6 @@ nav span {
   margin-left: 2rem;
   border-radius: 1rem;
   display: grid;
-  /* grid-template: repeat(1, 1fr) / 1fr; */
   justify-content: center;
 }
 
@@ -355,7 +346,6 @@ nav span {
   margin-left: 2rem;
   border-radius: 1rem;
   display: grid;
-  /* grid-template: repeat(1, 1fr) / 1fr; */
   justify-content: center;
 }
 
