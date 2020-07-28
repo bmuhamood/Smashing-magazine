@@ -1,6 +1,6 @@
 # Smashing Magazine Page Layout
 
-Building an HTML and css page that matches the appearance of this page [Apple](https://web.archive.org/web/20140301004610/http://www.apple.com/)
+Building an HTML and css page that matches the appearance of this page [Smashing Magazine](https://www.smashingmagazine.com/)
 
 # Built With
 
