@@ -467,6 +467,39 @@ margin: 2rem;
   width: 100%;
 }
 
+.person-week-container {   
+    background-color: var(--seventh-color);    
+    width: 100%;    
+    height: 20rem;    
+    margin-top: 2rem;    
+    display: grid;    
+    grid-template: 1fr / 1fr 3fr;    
+    column-gap: 0.6rem;    
+    padding: 1rem;   
+}
+.person-week-pic {    
+    background-color: var(--fourth-color);    
+    transform: rotate(-10deg);    
+       width: 90%;    
+       height: 90%;    
+       margin: 1rem auto;    
+       border-radius: 1rem;   
+}
+.person-week-text-container {    
+       display: grid;    
+       grid-template: 1fr 3fr / 1fr;    
+       row-gap: 0.6rem;   
+}
+   .person-week-title {    
+       background-color: var(--fifth-color);    
+       width: 60%;    
+       height: 80%;   
+}
+   .person-week-body {    
+       width: 100%;    
+       background-color: var(--fifth-color);    
+       height: 80%;   
+}
 
 footer {
   display: grid;
